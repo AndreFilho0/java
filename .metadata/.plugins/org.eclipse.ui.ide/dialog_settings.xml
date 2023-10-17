@@ -7,7 +7,11 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+<<<<<<< HEAD
 			<item value="C:\Users\filho\OneDrive\Área de Trabalho\coding\java"/>
+=======
+			<item value="C:\Users\T-Gamer\eclipse-workspace\curso_java"/>
+>>>>>>> 0ee25ecdac2fad87fabd57cd77c26e5cf06a9574
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

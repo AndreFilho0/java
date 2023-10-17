@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 !SESSION 2023-10-10 06:52:14.029 -----------------------------------------------
+=======
+!SESSION 2023-10-11 20:27:31.944 -----------------------------------------------
+>>>>>>> 0ee25ecdac2fad87fabd57cd77c26e5cf06a9574
 eclipse.buildId=4.29.0.20230907-1200
 java.version=17.0.8.1
 java.vendor=Eclipse Adoptium
@@ -6,6 +10,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
 
+<<<<<<< HEAD
 !ENTRY ch.qos.logback.classic 1 0 2023-10-10 06:52:32.311
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
@@ -15,6 +20,17 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 !ENTRY org.eclipse.jface 2 0 2023-10-10 06:53:39.515
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
 !SUBENTRY 1 org.eclipse.jface 2 0 2023-10-10 06:53:39.515
+=======
+!ENTRY ch.qos.logback.classic 1 0 2023-10-11 20:27:34.735
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-11 20:28:04.779
+!MESSAGE Logback config file: C:\Users\T-Gamer\eclipse-workspace\curso_java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 20:28:06.656
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 20:28:06.657
+>>>>>>> 0ee25ecdac2fad87fabd57cd77c26e5cf06a9574
 !MESSAGE A conflict occurred for CTRL+SHIFT+T:
 Binding(CTRL+SHIFT+T,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
@@ -33,6 +49,7 @@ Binding(CTRL+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.mylyn.commons.ui 4 0 2023-10-10 06:53:41.747
 !MESSAGE For input string: "or" under radix 16
 !STACK 0
@@ -428,6 +445,11 @@ java.lang.NumberFormatException: For input string: "or" under radix 16
 !ENTRY org.eclipse.egit.ui 2 0 2023-10-16 07:26:44.260
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\filho'. If this is
+=======
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-11 20:28:10.653
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\T-Gamer'. If this is
+>>>>>>> 0ee25ecdac2fad87fabd57cd77c26e5cf06a9574
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
