@@ -7,12 +7,19 @@ public class TesteContaBancaria {
 		ContaPoupanca cp = new ContaPoupanca("dede",100,1234,0.50);
 		ContaEspecial ce=new ContaEspecial("dede2", 200,443,300);
 		
-	//p.depositar(50);
-	//e.sacar(5000);
+		System.out.println(cb.toString());
+		System.out.println(ce.toString());
+		System.out.println(cp.toString());
 		
+	
+		cb.depositar(10);
+		cp.calcularNovoSaldo();
+		ce.sacar(100);
 		
 		System.out.println(cb.toString());
 		System.out.println(ce.toString());
+		System.out.println(cp.toString());
+		
 		
 
 	}

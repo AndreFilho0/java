@@ -12,10 +12,10 @@ public class ContaEspecial extends ContaBancaria {
 
 
 	public void sacar (double saque) {
-		 if (saldo>=saque && limite>=saldo) {
-			 saldo=saldo-saque;
-			 System.out.println("saque feito com sucesso");
-		 } else if (limite<=saldo) {
+		 if (getSaldo()>=saque && limite>=getSaldo()) {
+			 setSaldo(getSaldo()- saque);
+			 System.out.println("saque feito com sucesso, na conta da(o): "+ super.getNomeCliente());
+		 } else if (limite<=getSaldo()) {
 			 System.out.println("não tem limite");
 		 }else {
 			 System.out.println("não tem saldo");
@@ -23,12 +23,17 @@ public class ContaEspecial extends ContaBancaria {
 		  
 	}
 
-	
+
+	@Override
 	public String toString() {
-		return "ContaEspecial [limite=" + limite + ", nomeCliente=" + nomeCliente + ", saldo=" + saldo + ", numConta="
-				+ numConta + "]";
+		return "ContaEspecial [limite=" + limite + ", getNomeCliente()=" + getNomeCliente() + ", getSaldo()="
+				+ getSaldo() + ", getNumConta()=" + getNumConta() + "]";
+	}
+
+	
+	
 	}
 	
 	
 
-}
+
